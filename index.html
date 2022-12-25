@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>муха</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+    <div class="icons">
+        <div class="js"></div>
+    </div>
+    <div class="jsscreen">
+        <label for="jsConsole" class="jsCorporation">SpykozSoft Indows [Version 00.01]<br>
+            (c) SpykozSoft Corporation. All lefts reserved.<br><br>
+            
+            C:\Users\Muxa></label>
+        <input type="text" class="jsConsole consolebtn">
+        <button class="consoleButton">></button>
+        <p class="jsConsoleOutput"></p>
+        <button class="sqrt consolebtn">√</button>
+        <button class="pi consolebtn">π</button>
+    </div>
+    <div class="loadscreen">
+        <div class="top"></div>
+        <div class="middle">
+            <div class="logo"></div>
+            <div class="title"></div>
+            <div class="btn"></div>
+        </div>
+        <div class="bottom"></div>
+        </div>
+    </div>
+    <div class="after">
+        <div class="text"></div>
+        <div class="window">
+            <button class="close"></button>
+            <button class="ok"></button>
+        </div>
+    </div>
+
+    <div class="startMenu"></div>
+    <div class="menu">
+        <div class="menuBar">
+            <button class="startBtn" title="Start Menu"></button>
+        </div>
+
+    </div>
+    <audio src="./audio/muxa.wav" class="muxa"></audio>
+    <audio src="./audio/error.wav" class="error"></audio>
+    <audio src="./audio/error.mp3" class="error1"></audio>
+    <audio src="./audio/error2.wav" class="error2"></audio>
+    <audio src="./audio/error3.wav" class="error3"></audio>
+    <audio src="./audio/exclamation.wav" class="error4"></audio>
+    <audio src="./audio/startup.mp3" class="startup"></audio>
+    <script src="./muxa.js"></script>
+    <script>
+        $( function() {
+          $( ".jsscreen" ).draggable();
+          $( ".after" ).draggable();
+        } );
+        </script>
+</body>
+</html>
